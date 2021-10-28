@@ -45,3 +45,32 @@ def returnSum(num1, num2):
 sum = returnSum(12, 23)
 
 print(sum)
+
+# built in functions
+
+# absolute value
+abs(-24)
+
+# Bool condition none or zero = false
+bool(None)
+
+# dir gives all methods for entered value
+# help gives info on methods
+sent = "hello"
+print(sent.islower())
+help(sent.islower)
+
+
+# eval takes in string and runs as python code, exec is the same as eval but with multiline code
+
+sent2 = 'print("Hi")'
+eval(sent2)
+
+# str = string, float = ., int = number
+a = 1
+str(a)
+# returns '1' as a string
+float(a)
+# returns 1.0 as a float
+int(a)
+# returns 1 as a number
