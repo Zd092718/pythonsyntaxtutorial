@@ -74,3 +74,39 @@ float(a)
 # returns 1.0 as a float
 int(a)
 # returns 1 as a number
+
+# Classes
+
+
+class Person:
+    def getName(self):
+        print("Zack")
+
+    def getAge(self):
+        print("25")
+
+
+p = Person()
+
+# Called like a function
+p.getName()
+p.getAge()
+
+# init allows for extra parameters to be passed
+
+
+class Person2:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def getThisName(self):
+        print("Your name is " + self.name)
+
+    def getThisAge(self):
+        print("Your age is " + self.age)
+
+
+p1 = Person2("Jeff", "40")
+p1.getThisName()
+p1.getThisAge()
