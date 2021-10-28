@@ -110,3 +110,20 @@ class Person2:
 p1 = Person2("Jeff", "40")
 p1.getThisName()
 p1.getThisAge()
+
+
+# Inheritence notes
+class Parent:
+    def __init__(self):
+        print("This is the parent class")
+
+    def parentFunc(self):
+        print("This is the parent func")
+
+
+class Child(Parent):
+    def __init__(self):
+        print("This is the child class")
+
+    def childFunc(self):
+        print("this is the child func")
